@@ -56,12 +56,6 @@ h6,
 p {
 	margin: 0;
 }
-.container {
-	width: 1158px;
-	padding: 0 15px;
-	margin: 0 auto;
-	align-items: center;
-}
 .visually-hidden {
 	position: absolute;
 	width: 1px;
@@ -144,6 +138,12 @@ address .link {
 /* ================================================-_(/header)_-=============================================== */
 
 /* ================================================-_(common-styles)_-================================================ */
+.container {
+	width: 1158px;
+	padding: 0 15px;
+	margin: 0 auto;
+	align-items: center;
+}
 .thickness {
 	font-weight: 500;
 }
@@ -188,7 +188,12 @@ address .link {
 /* ================================================-_(hero)_-================================================ */
 .hero {
 	background-color: var(--dark);
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 1440px cover;
+	background-position: center;
 }
+
 .title-hero {
 	color: var(--white-background);
 	font-size: 56px;
