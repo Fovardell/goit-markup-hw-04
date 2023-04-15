@@ -232,7 +232,15 @@ address .link {
 /* ================================================-_(/hero)_-=============================================== */
 
 /* ================================================-_(features)_-================================================ */
-
+.features-svg-container {
+	background-color: var(--light);
+	border-radius: 4px;
+	min-height: 112px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 8px;
+}
 .features {
 	padding: 120px 0;
 }
@@ -265,6 +273,27 @@ address .link {
 
 	flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.links-container {
+	background-color: var(--primary-brand);
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	fill: var(--light);
+}
+.links-container:hover,
+.links-container:focus {
+	background-color: var(--pressed-state);
+	outline: none;
+}
+.social-media {
+	margin-top: 8px;
+	display: flex;
+	justify-content: space-between;
+}
+
 /* ================================================-_(/Team)_-=============================================== */
 
 /* ================================================-_(/main)_-=============================================== */
@@ -307,6 +336,27 @@ address .link {
 }
 /* ================================================-_(/portfolio)_-=============================================== */
 
+/* ================================================-_(customers)_-================================================ */
+.customers-link {
+	border: 1px solid #8e8f99;
+	border-radius: 4px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 16px 32px;
+	fill: #afb1b8;
+}
+.customers-link:hover,
+.customers-link:focus {
+	border: 1px solid var(--pressed-state);
+	fill: var(--pressed-state);
+	outline: none;
+}
+.customers-list {
+	flex-wrap: nowrap;
+}
+/* ================================================-_(/customers)_-=============================================== */
+
 /* ================================================-_(footer)_-================================================ */
 .footer {
 	background-color: var(--dark);
@@ -323,4 +373,28 @@ address .link {
 .footer .text {
 	color: var(--light);
 }
+.footer .thickness {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--white-background);
+	margin-bottom: 16px;
+}
+.footer .container{
+	display: flex;
+	align-items: baseline;
+}
+.footer-social-list{
+	display: flex;
+	gap: 16px;
+}
+.footer-social-media {
+	margin-left: 120px;
+}
+.links-container-footer:hover,
+.links-container-footer:focus{
+	background-color: #31D0AA;
+	outline: non;
+}
+
 /* ================================================-_(/footer)_-=============================================== */
