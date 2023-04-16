@@ -313,6 +313,7 @@ address .link {
 .customers-link:focus,
 .customers-link:hover {
 	border: 1px solid var(--pressed-state);
+	color: var(--pressed-state);
 }
 .list a.customers-link {
 	color: var(--light-slate);
