@@ -310,8 +310,8 @@ address .link {
 	padding: 16px 32px;
 	height: 100%;
 }
-.customers-link:focus,
-.customers-link:hover {
+.list a.customers-link:focus,
+.list a.customers-link:hover {
 	border: 1px solid var(--pressed-state);
 	color: #404bbf;
 }
@@ -326,10 +326,6 @@ address .link {
 	height: 88px;
 }
 
-.customers .icon:hover,
-.customers .icon:focus {
-	fill: var(--pressed-state);
-}
 /* ================================================-_(/customers)_-=============================================== */
 /* ================================================-_(/main)_-=============================================== */
 
