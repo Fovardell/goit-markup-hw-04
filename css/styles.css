@@ -277,15 +277,19 @@ address .link {
 
 	flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.links-container {
-	background-color: var(--primary-brand);
-	display: flex;
+.team-social-media {
 	width: 40px;
 	height: 40px;
+}
+.links-container {
+	fill: var(--light);
 	border-radius: 50%;
+	display: flex;
 	align-items: center;
 	justify-content: center;
-	fill: var(--light);
+	background-color: var(--primary-brand);
+	height: 100%;
+	width: 100%;
 }
 .links-container:hover,
 .links-container:focus {
@@ -309,6 +313,7 @@ address .link {
 	align-items: center;
 	padding: 16px 32px;
 	height: 100%;
+	width: 100%;
 }
 .list a.customers-link:focus,
 .list a.customers-link:hover {
@@ -402,6 +407,11 @@ address .link {
 	display: flex;
 	align-items: baseline;
 	gap: 120px;
+}
+.links-container-footer{
+	padding: 8px;
+	height: 100%;
+	width: 100%;
 }
 .footer-social-list {
 	display: flex;
