@@ -141,6 +141,10 @@ address .link {
 .interactive a:focus {
 	color: var(--pressed-state);
 }
+.link.current-static{
+	color: var(--pressed-state)
+}
+
 .current-static::after {
 	content: "";
 	display: block;
@@ -461,9 +465,12 @@ li.thickness {
 .footer p {
 	width: 265px;
 }
-.footer-logo {
-	display: inline-block;
+.footer-info {
+	margin-right: 120px;
+}
+.footer-logo{
 	margin-bottom: 16px;
+	display: inline-block;
 }
 .footer .logo-accent,
 .footer .text {
@@ -479,7 +486,6 @@ li.thickness {
 .footer .container {
 	display: flex;
 	align-items: baseline;
-	gap: 120px;
 }
 .links-container-footer {
 	padding: 8px;
@@ -521,7 +527,7 @@ li.thickness {
 	pointer-events: none;
 }
 .backdrop.is-hidden .modal {
-	transform: translate(-50%, -50%) scale(0.5) ;
+	transform: translate(-50%, -50%) scale(0.5);
 }
 .modal {
 	position: absolute;
